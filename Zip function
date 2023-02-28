@@ -1,0 +1,4 @@
+st = input().split()
+li = [map(float, input().split()) for _ in range(int(st[1]))]
+for i in zip(*li):
+  print( sum(i)/len(i) )
